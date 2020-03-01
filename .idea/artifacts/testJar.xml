@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="testJar">
+    <output-path>$PROJECT_DIR$/out/artifacts/testJar</output-path>
+    <root id="archive" name="testJar.jar">
+      <element id="module-output" name="java" />
+      <element id="library" level="project" name="KotlinJavaRuntime" />
+      <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
